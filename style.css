@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+
+body{
+    background-color: aqua;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.counter {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    margin-top: 200px;
+   
+}
+
+.time {
+    color: black;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.start{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+   
+    
+}
+
+.stop{
+    background-color: red;
+    font-size: 25px;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+}
